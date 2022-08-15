@@ -1,0 +1,27 @@
+﻿@model List<Category>
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+<table class="table table-bordered table table-striped" >
+<tr>
+    <th>Kategori Adı</th>
+    <th>Sil</th>
+    <th>Güncelle</th>
+</tr>
+<tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CategoryId">Sil</a></td>
+            <td><a class="btn btn-warning" href="/CategoryApi/Update/@item.CategoryId">Güncelle</a></td>
+        </tr>
+    }
+</tbody>
+    </table>
+<br />
+<a class="btn btn-primary" asp-action="Create">Ekle</a>

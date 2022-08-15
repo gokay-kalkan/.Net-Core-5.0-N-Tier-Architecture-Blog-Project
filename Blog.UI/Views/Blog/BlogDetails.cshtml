@@ -1,0 +1,286 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "BlogDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+
+
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="heading-page header-text">
+        <section class="page-heading">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-content">
+
+                            <h2>Blog Detayı</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Banner Ends Here -->
+
+    <section class="call-to-action">
+    </section>
+
+
+    <section class="blog-posts grid-system">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="all-blog-posts">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="~/img/@Model.BlogImage" alt="">
+                                    </div>
+                                    <div class="down-content">
+                                        <span>@Model.Category.Name</span>
+                                        <a href="post-details.html"><h4>@Model.Name</h4></a>
+                                        <ul class="post-info">
+                                            <li><a href="#">@Model.UserAdmin.FullName</a></li>
+                                            <li><a href="#">@Model.BlogDate.ToShortDateString()</a></li>
+                                            <li><a href="#">10 Comments</a></li>
+                                            <li><i class="fa fa-eye"></i>@Model.ReadCount</li>
+                                        </ul>
+
+                                        @{string metin = System.Text.RegularExpressions.Regex.Replace(Model.Description, @"<(.|\n)*?>", string.Empty); }
+
+                                            @Html.Raw(metin)
+                                        </p>
+                                        @*<div class="post-options">
+                                        <p>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <ul class="post-tags">
+                                                            <li><i class="fa fa-tags"></i></li>
+                                                            <li><a href="#">Best Templates</a>,</li>
+                                                            <li><a href="#">TemplateMo</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <ul class="post-share">
+                                                            <li><i class="fa fa-share-alt"></i></li>
+                                                            <li><a href="#">Facebook</a>,</li>
+                                                            <li><a href="#"> Twitter</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="sidebar-item comments">
+                                    <div class="sidebar-heading">
+                                        <h2>Yapılan yorum: @ViewBag.sayi</h2>
+                                    </div>
+                                    <div class="content">
+                                        <ul>
+                                            @{ int i = 1; }
+                                            @foreach (var comments in ViewBag.commentlist as List<Comment>)
+                                            {
+
+
+                                                <li>
+                                                    <div class="author-thumb">
+                                                        <img src="~/Blogtema/assets/images/usericon.png" alt="">
+                                                    </div>
+                                                    <div class="right-content">
+                                                        <h4>@comments.FullName<span>@comments.CommentDate</span></h4>
+                                                        <script>
+                      $(function(){
+
+                          $('#@("puanlar"+i)').rateYo({
+
+                              rating:@comments.BlogRating,
+                              readonly: true,
+
+                              multiColor: {
+
+                                  "startColor": "#FF0000", //RED
+                                  "endColor": "#00FF00"  //GREEN
+                              },
+                          });
+                      });
+                                                        </script>
+
+                                                        <p>@comments.CommentText</p>
+                                                    </div>
+                                                    <br />
+                                                    <br />
+
+
+                                                </li>
+                                                <p>Verilen Puan</p>
+                                                <div class="col-md-6" id="@("puanlar" + i)"></div>
+                                                i++;
+                                            }
+
+                                        </ul>
+                                    </div>
+
+                                    <br /><br />
+
+
+
+                                    <script>
+                      $(function(){
+
+                          $('#puan').rateYo({
+
+                              rating:@ViewBag.ortalama,
+                              readonly: true,
+
+                              multiColor: {
+
+                                  "startColor": "#FF0000", //RED
+                                  "endColor": "#00FF00"  //GREEN
+                              },
+                          });
+                      });
+                                    </script>
+                                </div>
+                                <p>Blog Ortalaması</p>
+                                <div class="col-md-6" id="puan"></div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="sidebar-item submit-comment">
+                                    <div class="sidebar-heading">
+                                        <h2>Your comment</h2>
+                                    </div>
+                                    <div class="content">
+                                        <form id="comment" method="post">
+                                            @{ var comment = new Comment();}
+                                            <input type="hidden" name="BlogId" value="@Model.BlogId" />
+                                            <div class="row">
+                                                <div class="col-md-6 col-sm-12">
+                                                    <fieldset>
+                                                        <input name="FullName" type="text" id="name" placeholder="Adınız Soyadınız" required="">
+                                                        <br />
+                                                        <span class="text-danger" asp-validation-for="@comment.FullName"></span>
+                                                    </fieldset>
+                                                </div>
+                                                <div class="col-md-6 col-sm-12">
+                                                    <fieldset>
+                                                        <input name="Email" type="email" id="email" placeholder="Eposta adresiniz" required="">
+                                                        <br />
+                                                        <span class="text-danger" asp-validation-for="@comment.Email"></span>
+                                                    </fieldset>
+                                                </div>
+                                                @*<div class="col-md-12 col-sm-12">
+                                                        <fieldset>
+                                                            <input name="subject" type="text" id="subject" placeholder="Subject">
+                                                        </fieldset>
+                                                    </div>*@
+                                                <div class="col-lg-12">
+                                                    <fieldset>
+                                                        <textarea name="CommentText" rows="6" id="message" placeholder="Yorumunuz" required=""></textarea>
+                                                        <br />
+                                                        <span class="text-danger" asp-validation-for="@comment.CommentText"></span>
+                                                    </fieldset>
+                                                </div>
+
+                                                <div class="col-lg-12">
+                                                    <div id="PuanVer">
+
+                                                    </div>
+
+                                                    <input type="hidden" name="BlogRating" id="rating" />
+                                                </div>
+                                                <br />
+                                                <div class="col-lg-12">
+                                                    <fieldset>
+                                                        <button type="submit" id="form-submit" class="main-button" onclick="return -confirm(alert('Mesajınız başarıyla alındı. Fakat yorumunuz onaylandıktan sonra yayınlanacaktır.'))">Gönder</button>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sidebar-item search">
+                                    <form id="search_form" name="gs" method="GET" action="#">
+                                        <input type="text" name="q" class="searchText" placeholder="type to search..." autocomplete="on">
+                                    </form>
+                                </div>
+                            </div>
+                            @await Component.InvokeAsync("LastThreeBlog")
+
+                            @await Component.InvokeAsync("CategoryList")
+
+                            @*<div class="col-lg-12">
+                                    <div class="sidebar-item tags">
+                                        <div class="sidebar-heading">
+                                            <h2>Tag Clouds</h2>
+                                        </div>
+                                        <div class="content">
+                                            <ul>
+                                                <li><a href="#">Lifestyle</a></li>
+                                                <li><a href="#">Creative</a></li>
+                                                <li><a href="#">HTML5</a></li>
+                                                <li><a href="#">Inspiration</a></li>
+                                                <li><a href="#">Motivation</a></li>
+                                                <li><a href="#">PSD</a></li>
+                                                <li><a href="#">Responsive</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        $(function () {
+            $("#PuanVer").rateYo({
+
+                rating: 0,
+                numStars: 5,
+                maxValue: 5,
+                fullStar: true,
+
+                multiColor: {
+
+                    "startColor": "#FF0000", //RED
+                    "endColor": "#00FF00"  //GREEN
+                },
+                onChange: function (rating, rateYoInstance) {
+                    $('#rating').val(rating);
+
+                }
+            });
+
+
+        });
+    </script>
+
+</body>
+
+</html>
+
+

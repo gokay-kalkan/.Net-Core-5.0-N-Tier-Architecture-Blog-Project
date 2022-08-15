@@ -1,0 +1,36 @@
+﻿@model List<Contact>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Ad Soyad</th>
+        <th>Email</th>
+        <th>Konu</th>
+        <th>Mesaj</th>
+        <th>Okudum Onayla</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ContactId</td>
+            <td>@item.FullName</td>
+            <td>@item.Email</td>
+            <td>@item.Subject</td>
+            <td>@item.Message</td>
+            @if (item.CheckStatus == false)
+            {
+                <td><a asp-action="Confirm" asp-route-id="@item.ContactId" class="btn btn-warning">Onaylamak için Tıkla</a></td>
+            }
+            else
+            {
+                <td><a class="btn btn-warning">Okundu</a></td>
+            }
+
+        </tr>
+    }
+</table>
+

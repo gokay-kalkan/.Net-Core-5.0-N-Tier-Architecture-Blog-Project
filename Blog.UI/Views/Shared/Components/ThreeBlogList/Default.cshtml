@@ -1,0 +1,48 @@
+﻿@model List<Blog>
+
+@foreach (var item in Model)
+{
+    
+
+    <div class="col-lg-12">
+        <div class="blog-post">
+            <div class="blog-thumb">
+                <img src="~/img/@item.BlogImage" alt="" width="500" height="500">
+            </div>
+            <div class="down-content">
+                <span>@item.Category.Name</span>
+                <a asp-action="BlogDetails" asp-controller="Blog" asp-route-id="@item.BlogId"><h4>@item.Name</h4></a>
+                <ul class="post-info">
+                    <li><a href="#">@item.UserAdmin.FullName</a></li>
+                    <li><a href="#">@item.BlogDate.ToShortDateString()</a></li>
+                    <li><a href="#">12 Comments</a></li>
+                    <li><i class="fa fa-eye"></i>@item.ReadCount</li>
+                </ul>
+                @{string metin = System.Text.RegularExpressions.Regex.Replace(item.Description, @"<(.|\n)*?>", string.Empty); }
+            <p>
+                @Html.Raw(metin.Substring(0, metin.Substring(0,50).LastIndexOf("")))
+
+               ... <a asp-action="BlogDetails" asp-controller="Blog" asp-route-id="@item.BlogId" target="_parent">Devamını Oku</a>
+            </p>
+                @*<div class="post-options">
+            <div class="row">
+                <div class="col-6">
+                    <ul class="post-tags">
+                        <li><i class="fa fa-tags"></i></li>
+                        <li><a href="#">Beauty</a>,</li>
+                        <li><a href="#">Nature</a></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="post-share">
+                        <li><i class="fa fa-share-alt"></i></li>
+                        <li><a href="#">Facebook</a>,</li>
+                        <li><a href="#"> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,26 @@
+﻿@model About
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <form method="post" asp-antiforgery="true">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <br />
+                        <label>Açıklama</label>
+                       <textarea asp-for="Description" cols="4" rows="4" class="form-control"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                        <br />
+                        <button type="submit" class="btn btn-warning">Ekle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

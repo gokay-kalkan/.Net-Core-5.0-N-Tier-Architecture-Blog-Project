@@ -1,0 +1,161 @@
+﻿@using Microsoft.AspNetCore.Http
+@{
+    Layout = null;
+}
+
+
+
+ <html>
+
+     <head>
+         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css">
+
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+     </head>
+     
+<div id="app">
+
+    <input type="text" class="form-control col-md-4" v-model="newCategory"/>
+    <button type="submit" class="btn btn-primary" v-on:click="create">Ekle</button>
+
+    <div class="container mt-5">
+        <div class="col-md-6">
+
+           
+
+            <table class="table table-bordered table table-striped">
+                <tr>
+                    <th>Kategori</th>
+                    <th>Sil</th>
+                    
+                </tr>
+                <tbody>
+                    <tr v-for="k in kategoriler">
+                        <td>
+                            <input v-if="k==modifiedCategory" v-model="modifiedCategory.name" />
+                            <span>{{k.name}}</span>
+                        </td>
+                        
+                        <td>
+
+                           
+                             <div v-if="k==modifiedCategory">
+                                <button class="btn btn-danger" v-on:click="modifiedCategory=null">İptal</button>
+
+                                 <button class="btn btn-success" v-on:click="modified(modifiedCategory)">Kaydet</button>
+                            </div>
+
+                              <div v-else>
+                                <button class="btn btn-danger" v-on:click="deleted(k)">Sil</button>
+
+                                 <button class="btn btn-warning" v-on:click="modifiedCategory=k">Güncelle</button>
+                            </div>
+
+                        </td>
+                       
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+
+            <script>
+
+                    var app=new Vue({
+
+                        el:'#app',
+
+                        data:{
+
+                            kategoriler:[],
+                            newCategory:"",
+                            modifiedCategory:null
+                            
+                        },
+                      
+
+                        methods:{
+
+                            listele:function(){
+
+                                fetch("https://localhost:44362/api/Category")
+                                .then(response=>response.json()).then(data=>{console.log(data); this.kategoriler=data;});
+                            },
+
+                            create:function(){
+                                var category={name:this.newCategory};
+                                fetch("https://localhost:44362/api/Category",{
+
+                                method:'POST',
+                                headers:{
+                                    'Content-Type':"application/json"
+                                },
+
+                                body:JSON.stringify(category)
+
+                                }).then(response=>response.json())
+                                
+                                .then(data=>
+                                    {console.log(data);
+                                    this.listele();
+                                    this.newCategory="";
+                                    }).catch(error=>{console.error('Error',error)});
+                            },
+
+                            deleted:function(category){
+
+                                fetch(`https://localhost:44362/api/Category/${category.categoryId}`,{
+                                    method:'DELETE',
+                                    headers:{
+                                        'Content-Type':"application/json"
+                                    },
+                                })
+                                .then(data=>{
+                                    console.log(data);
+
+                                    this.listele();
+                                }).catch(error=>{console.error('Error',error)});
+                            },
+
+
+                            modified:function(){
+                               
+                                fetch("https://localhost:44362/api/Category",{
+
+                                method:'PUT',
+                                headers:{
+                                    'Content-Type':"application/json"
+                                },
+
+                                body:JSON.stringify(this.modifiedCategory)
+
+                                }).then(response=>response.json())
+                                
+                                .then(data=>
+                                    {console.log(data);
+                                    this.listele();
+                                    this.newCategory="";
+                                    }).catch(error=>{console.error('Error',error)});
+                            },
+
+
+                            
+
+                           
+
+                        },
+
+
+
+                         created:function(){
+                            this.listele();
+                        }
+                    }); 
+
+        </script>
+       
+ </html>

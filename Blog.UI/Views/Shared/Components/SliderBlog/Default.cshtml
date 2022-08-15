@@ -1,0 +1,29 @@
+﻿@model List<Blog>
+
+<div class="main-banner header-text">
+    <div class="container-fluid">
+        <div class="owl-banner owl-carousel">
+            @foreach (var item in Model)
+            {
+
+            
+            <div class="item">
+                <img src="~/img/@item.BlogImage" alt="" width="300" height="300">
+                <div class="item-content">
+                    <div class="main-content">
+                        <div class="meta-category">
+                            <span style="color:white">@item.Name</span>
+                        </div>
+                        <a asp-action="Details" asp-controller="Blog" asp-route-id="@item.BlogId"><h4>@item.Category.Name</h4></a>
+                        <ul class="post-info">
+                            <li><a href="#">@item.UserAdmin.FullName</a></li>
+                            <li><a href="#">@item.BlogDate.ToShortDateString()</a></li>
+                         
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>

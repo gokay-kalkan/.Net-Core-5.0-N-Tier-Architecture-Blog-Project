@@ -1,0 +1,156 @@
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\appsettings.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.exe
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.deps.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.runtimeconfig.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.runtimeconfig.dev.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\ref\BlogWebApi.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.csproj.AssemblyReference.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.AssemblyInfoInputs.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.AssemblyInfo.cs
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.csproj.CoreCompileInputs.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\staticwebassets\BlogWebApi.StaticWebAssets.Manifest.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\staticwebassets\BlogWebApi.StaticWebAssets.xml
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\scopedcss\bundle\BlogWebApi.styles.css
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.csproj.CopyComplete
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\ref\BlogWebApi.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.genruntimeconfig.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BusinessLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BusinessLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\appsettings.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.StaticWebAssets.xml
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.exe
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.deps.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.runtimeconfig.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.runtimeconfig.dev.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BlogWebApi.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BusinessLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\BusinessLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.csproj.AssemblyReference.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.AssemblyInfoInputs.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.AssemblyInfo.cs
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.csproj.CoreCompileInputs.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\scopedcss\bundle\BlogWebApi.styles.css
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\staticwebassets\BlogWebApi.StaticWebAssets.Manifest.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.csproj.CopyComplete
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\refint\BlogWebApi.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\BlogWebApi.genruntimeconfig.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\BlogWebApi\obj\Debug\net5.0\ref\BlogWebApi.dll

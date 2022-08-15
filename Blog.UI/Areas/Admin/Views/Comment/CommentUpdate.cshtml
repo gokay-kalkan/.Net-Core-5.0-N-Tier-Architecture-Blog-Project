@@ -1,0 +1,25 @@
+﻿@model Comment
+@{
+    ViewData["Title"] = "CommentUpdate";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <form method="post" asp-antiforgery="true">
+                        <input type="hidden" asp-for="BlogId"/>
+                        <input type="hidden" asp-for="CommentId"/>
+                        <label>Onayla</label>
+                        <input type="checkbox" asp-for="CommentCheckStatus"/>
+                        <br />
+                        <button type="submit" class="btn btn-warning">Onayla</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

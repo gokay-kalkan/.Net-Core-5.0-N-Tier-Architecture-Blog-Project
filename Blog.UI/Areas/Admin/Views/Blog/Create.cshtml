@@ -1,0 +1,50 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <form method="post" asp-antiforgery="true" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="UserAdminId" value="@ViewBag.useradminid" />
+                        <br />
+                        <label>Resim</label>
+                        <input type="file" asp-for="Image" />
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                        <br />
+                        <label>Blog Adı</label>
+                        <input type="text" asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                        <br />
+                        <label>Blog Açıklaması</label>
+                        <textarea id="summernote" asp-for="Description"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                        <br />
+
+
+                        <label>Kategori</label>
+                        <select asp-for="CategoryId" class="form-control">
+                            <option selected class="form-control">Seçiniz</option>
+                            @foreach (var item in ViewBag.category)
+                            {
+                                <option value="@item.Value" class="form-control">@item.Text</option>
+                            }
+                        </select>
+                        <br />
+                        <button type="submit" class="btn btn-warning">Ekle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#summernote').summernote();
+    });
+</script>

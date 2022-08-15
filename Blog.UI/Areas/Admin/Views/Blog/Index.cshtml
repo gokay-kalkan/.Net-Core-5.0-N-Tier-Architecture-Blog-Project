@@ -1,0 +1,185 @@
+﻿@model List<Blog>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@{ 
+    string success = "bg-success";
+    string danger = "bg-danger";
+    string warning = "bg-warning";
+    int puan;
+}
+
+
+@if (Model.Count == 0)
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <div class="alert alert-success">Henüz herhangi bir blog eklenmedi.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <table id="" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Blog Resmi</th>
+                <th>Blog Adı</th>
+                <th>Açıklama</th>
+                <th>Tarih</th>
+                <th>Kategori</th>
+                <th>Sil</th>
+                <th>Güncelle</th>
+               <th>Paunı</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                puan = item.Rating * 20;
+            <tr>
+                <td><img src="~/img/@item.BlogImage" width="70" height="70" /></td>
+                <td>@item.Name</td>
+                <td>@Html.Raw(item.Description)</td>
+                <th>@item.BlogDate.ToShortDateString()</th>
+                <td>@item.Category.Name</td>
+
+                <td><a class="btn btn-danger" id="delete" data-id="@item.BlogId">Sil</a></td>
+                <td><a class="btn btn-warning" asp-action="Update" asp-route-id="@item.BlogId">Güncelle</a></td>
+                @if (puan == 100)
+                {
+                    <td>
+                        <small>@puan</small>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped @success" role="progressbar" style="width: @puan%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                    </td>
+                }
+
+                @if (puan == 80 ||puan==60)
+                {
+            <td>
+                <small>@puan</small>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped @warning" role="progressbar" style="width: @puan%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+            </td>
+                }
+
+              
+
+                @if (puan == 40 || puan==20)
+                {
+            <td>
+                <small>@puan</small>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped @danger" role="progressbar" style="width: @puan%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+            </td>
+                }
+
+            </tr>
+            }
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Blog Resmi</th>
+                <th>Blog Adı</th>
+                <th>Açıklama</th>
+                <th>Tarih</th>
+                <th>Kategori</th>
+                <th>Sil</th>
+                <th>Güncelle</th>
+            </tr>
+        </tfoot>
+    </table>
+}
+
+@*else
+    {
+        <div class="container">
+            <table class="table table-bordered table table-striped table-responsive" id="myTable">
+                <tr>
+                    <th>Blog Resmi</th>
+                    <th>Blog Adı</th>
+                    <th>Açıklama</th>
+                    <th>Blog Tarihi</th>
+                    <th>Kategorisi</th>
+                    <th>Sil</th>
+                    <th>Güncelle</th>
+                </tr>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><img src="~/img/@item.BlogImage" width="70" height="70" /></td>
+                            <td>@item.Name</td>
+                            <td>@Html.Raw(item.Description)</td>
+                            <th>@item.BlogDate.ToShortDateString()</th>
+                            <td>@item.Category.Name</td>
+
+                            <td><a class="btn btn-danger" id="delete" data-id="@item.BlogId">Sil</a></td>
+                            <td><a class="btn btn-warning" asp-action="Update" asp-route-id="@item.BlogId">Güncelle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    }*@
+
+<br />
+
+<a asp-action="Create" class="btn btn-primary">Ekle</a>
+<script>
+    $(document).ready(function () {
+        $('table.display').DataTable({
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Turkish.json"
+            }
+
+        });
+        
+    });
+</script>
+
+
+<script type="text/javascript">
+    $("table.display").on("click", "#delete", function () {
+        var id = $(this).data("id");
+
+        swal({
+            title: "Blog Silinecek!",
+            text: "Bu blog silinecek gerçekten silmek istediğinize emin misinz?",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        })
+            .then((willDelete) => {
+                if (willDelete) {
+
+                    $.ajax({
+                        type: 'GET',
+                        url: '/Admin/Blog/Delete/' + id,
+                        success: function () {
+                            toastr.error("Blog silme işlemi başarıyla gerçekleşti");
+                        }
+                    });
+
+                    $(this).parent("td").parent("tr").remove();
+
+                }
+            });
+
+
+    });
+</script>

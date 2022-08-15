@@ -1,0 +1,44 @@
+﻿@model List<Comment>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="container">
+    <table class="table table-bordered table table-striped">
+        <tr>
+            <th>Yorumu Yapan</th>
+            <th>Yorumu</th>
+            <th>Yorum Tarihi</th>
+            <th>Blog Adı</th>
+            @if (Model.Select(x => x.CommentCheckStatus == true).FirstOrDefault())
+            {
+                <th>Onaylandı</th>
+            }
+            else
+            {
+                <th>Onayla</th>
+            }
+        </tr>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FullName</td>
+                    <td>@item.CommentText</td>
+                    <td>@item.CommentDate.ToShortDateString()</td>
+                    <td>@item.Blog.Name</td>
+                    @if (item.CommentCheckStatus==true)
+                    {
+                        <td><button class="btn btn-success">Onaylı</button></td>
+                    }
+                    else
+                    {
+                        <td><a class="btn btn-warning" asp-action="CommentUpdate" asp-route-id="@item.CommentId">Onayla</a></td>
+                    }
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

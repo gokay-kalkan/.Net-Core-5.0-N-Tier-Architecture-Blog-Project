@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewData["Title"] = "DeleteList";
+}
+
+@model List<Category>
+
+
+@if (Model.Count == 0)
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <div class="alert alert-success">Henüz silinen bir kategori eklenmedi.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <table class="table table-bordered table table-striped" id="table">
+        <tr>
+            <th>Kategori Adı</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+        </tr>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td><a class="btn btn-info" asp-action="RestoreDeleted" asp-route-id="@item.CategoryId">Geri Yükle</a></td>
+                    <td><a class="btn btn-danger" id="fulldelete" data-id="@item.CategoryId">Tamamen Sil</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<br />
+<a class="btn btn-primary" asp-action="Create">Ekle</a>
+
+<script type="text/javascript">
+    $("#table").on("click", "#fulldelete", function () {
+        var id = $(this).data("id");
+
+        swal({
+            title: "Kategori Silinecek!",
+            text: "Bu kategori silinecek gerçekten silmek istediğinize emin misinz?",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        })
+            .then((willDelete) => {
+                if (willDelete) {
+
+                    $.ajax({
+                        type: 'GET',
+                        url: '/Admin/Category/FullDelete/' + id,
+                        success: function () {
+                            toastr.error("Kategori silme işlemi başarıyla gerçekleşti");
+                        }
+                    });
+
+                    $(this).parent("td").parent("tr").remove();
+
+                }
+            });
+
+
+    });
+</script>
+
+

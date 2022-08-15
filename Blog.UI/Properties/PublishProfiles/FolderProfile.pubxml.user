@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\Blog.UI\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2022-03-26T17:15:31.4698542Z;True|2022-03-26T17:40:49.8822443+03:00;True|2022-03-26T17:29:49.8094379+03:00;True|2022-03-26T16:32:57.0573898+03:00;</History>
+  </PropertyGroup>
+</Project>

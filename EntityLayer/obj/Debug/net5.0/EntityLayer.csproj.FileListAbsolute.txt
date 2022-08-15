@@ -1,0 +1,24 @@
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NET CORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Blog.UI\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll

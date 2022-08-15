@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\Blog.UI\\Blog.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\Blog.UI\\Blog.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\Blog.UI\\Blog.UI.csproj",
+        "projectName": "Blog.UI",
+        "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\Blog.UI\\Blog.UI.csproj",
+        "packagesPath": "C:\\Users\\gkykl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\Blog.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gkykl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "aspnetcorevuejs": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "toastr": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "vue": {
+              "target": "Package",
+              "version": "[2.6.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.16, 5.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\BusinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\gkykl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gkykl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\gkykl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gkykl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\gkykl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gkykl\\OneDrive\\Masaüstü\\ASP.NETCORE\\Blog.UI\\EntityLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gkykl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

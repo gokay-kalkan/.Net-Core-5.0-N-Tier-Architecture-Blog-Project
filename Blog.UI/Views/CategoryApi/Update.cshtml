@@ -1,0 +1,25 @@
+﻿@model Category
+@{
+    Layout = null;
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <form method="post">
+                        <input type="hidden" asp-for="CategoryId"/>
+                        <br />
+                        <label>Kategori Adı</label>
+                        <input type="text" asp-for="Name" class="form-control" />
+
+                        <br />
+                        <button type="submit" class="btn btn-warning">Güncelle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

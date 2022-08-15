@@ -1,0 +1,144 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">En Çok Puanı Olan Blog</div>
+            <div class="card-body text-primary">
+                @foreach (var item in ViewBag.blogratingencok)
+                {
+                    <p class="card-text text-white">
+                        @item
+                    </p>
+                }
+
+            </div>
+        </div>
+
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">En Az Puanı Olan Blog</div>
+            <div class="card-body text-primary">
+                @foreach (var item in ViewBag.blogratingenaz)
+                {
+                    <p class="card-text text-white">
+                        @item
+                    </p>
+                }
+
+            </div>
+        </div>
+
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">En Çok Yorumu Olan Blog</div>
+            <div class="card-body text-primary">
+              
+                    <p class="card-text text-white">
+                        @ViewBag.comemntencok
+                    </p>
+                
+
+            </div>
+        </div>
+
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">En Az Yorumu Olan Blog</div>
+            <div class="card-body text-primary">
+               
+                    <p class="card-text text-white">
+                        @ViewBag.comemntenaz
+                    </p>
+                
+
+            </div>
+        </div>
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">En Çok Blogu Olan Kategori</div>
+            <div class="card-body text-primary">
+                
+                    <p class="card-text text-white">
+                        @ViewBag.categoryblog
+                    </p>
+                
+
+            </div>
+        </div>
+
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">En Çok görüntülenen blog</div>
+            <div class="card-body text-primary">
+               
+                    <p class="card-text text-white">
+                        @ViewBag.blogreadcount
+                    </p>
+                
+
+            </div>
+        </div>
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">Blog Sayısı</div>
+            <div class="card-body text-primary">
+                
+                    <p class="card-text text-white">
+                        @ViewBag.blogcount
+                    </p>
+                
+
+            </div>
+        </div>
+
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">Kategori Sayısı</div>
+            <div class="card-body text-primary">
+               
+                    <p class="card-text text-white">
+                        @ViewBag.categorycount
+                    </p>
+                
+
+            </div>
+        </div>
+
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">Yorum Sayısı</div>
+            <div class="card-body text-primary">
+                   <p class="card-text text-white">
+                        @ViewBag.commentcount
+                    </p>
+                
+
+            </div>
+        </div>
+
+
+        <div class="card bg-warning mb-3 col-md-3" style="max-width: 18rem; margin-left:10px;">
+            <div class="card-header">Yazar Sayısı</div>
+            <div class="card-body text-primary">
+               
+                    <p class="card-text text-white">
+                        @ViewBag.authorcount
+                    </p>
+                
+
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+

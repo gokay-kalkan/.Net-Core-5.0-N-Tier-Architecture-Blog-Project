@@ -1,0 +1,23 @@
+﻿@model List<Blog>
+<div class="col-lg-12">
+    <div class="sidebar-item recent-posts">
+        <div class="sidebar-heading">
+            <h2>Son Bloglar</h2>
+        </div>
+        <div class="content">
+            <ul>
+                @foreach (var item in Model)
+                {
+
+                
+                <li>
+                    <a asp-controller="Blog" asp-action="BlogDetails" asp-route-id="@item.BlogId">
+                        <h5>@item.Name</h5>
+                        <span>@item.BlogDate.ToShortDateString()</span>
+                    </a>
+                </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
